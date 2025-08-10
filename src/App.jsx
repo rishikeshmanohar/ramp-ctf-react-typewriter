@@ -48,7 +48,7 @@ export default function App() {
   const [typed, setTyped] = useState("");
   const hasAnimatedRef = useRef(false);
 
-  // Step 4: Load the flag using browser fetch (no external libs)
+  // Step 4: Load the flag using browser fetch without using external libs
   useEffect(() => {
     let cancelled = false;
     (async () => {
